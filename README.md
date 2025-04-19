@@ -20,28 +20,33 @@ A modern web application for creating and managing reports with role-based acces
 ## Getting Started
 
 1. Clone the repository:
+
 ```bash
-git clone https://github.com/yourusername/nextcreaterapor.git
+git clone https://github.com/yourusername/NextJs15.git
 cd nextcreaterapor
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Start the PostgreSQL database using Docker Compose:
+
 ```bash
 docker-compose up -d
 ```
 
 4. Initialize the database:
+
 ```bash
 npm run db:push
 npm run db:seed
 ```
 
 5. Start the development server:
+
 ```bash
 npm run dev
 ```
@@ -73,31 +78,9 @@ nextcreaterapor/
 └── scripts/
 ```
 
-## API Endpoints
-
-### Authentication
-- POST /api/auth/login - User login
-- POST /api/auth/logout - User logout
-
-### Companies
-- GET /api/companies - Get all companies
-- POST /api/companies - Create a new company
-
-### Users
-- GET /api/users - Get all users
-- POST /api/users - Create a new user
-
-### Reports
-- GET /api/reports - Get all reports
-- POST /api/reports - Create a new report
-
-### Report Types
-- GET /api/report-types - Get all report types
-- POST /api/report-types - Create a new report type
-
 ## Technologies Used
 
-- Next.js 14
+- Next.js 15
 - TypeScript
 - Prisma
 - PostgreSQL
